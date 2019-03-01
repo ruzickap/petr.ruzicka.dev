@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Petr Ruzicka"
-baseURL = "https://petr.xvx.cz/"
+baseURL = "https://petr.ruzicka.dev/"
 theme = "aerial"
 
 [params]

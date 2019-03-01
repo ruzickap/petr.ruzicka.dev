@@ -1,6 +1,6 @@
 # Personal web page
 
-[![Build Status](https://travis-ci.com/ruzickap/petr.xvx.cz.svg?branch=master)](https://travis-ci.com/ruzickap/petr.xvx.cz)
+[![Build Status](https://travis-ci.com/ruzickap/petr.ruzicka.dev.svg?branch=master)](https://travis-ci.com/ruzickap/petr.ruzicka.dev)
 
 ## Instalation
 
