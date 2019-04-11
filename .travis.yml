@@ -1,4 +1,10 @@
+dist: xenial
+
 language: minimal
+
+branches:
+  except:
+    - gh-pages
 
 services:
   - docker
