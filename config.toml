@@ -27,6 +27,11 @@ theme = "aerial"
   link = "https://github.com/ruzickap/"
 
 [[params.social]]
+  medium = "500px"
+  icon = "500px"
+  link = "https://500px.com/petrruzicka"
+
+[[params.social]]
   medium = "Flickr"
   icon = "flickr"
   link = "https://www.flickr.com/photos/petrruzicka/"
@@ -35,11 +40,6 @@ theme = "aerial"
   medium = "Instagram"
   icon = "instagram"
   link = "https://www.instagram.com/petr.ruzicka_cz/"
-
-[[params.social]]
-  medium = "500px"
-  icon = "500px"
-  link = "https://500px.com/petrruzicka"
 
 [[params.social]]
   medium = "Pixabay"
