@@ -3,8 +3,8 @@ dist: xenial
 language: minimal
 
 branches:
-  except:
-    - gh-pages
+  only:
+  - master
 
 services:
   - docker
