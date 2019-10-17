@@ -1,6 +1,6 @@
 # Personal web page
 
-[![Build Status](https://travis-ci.com/ruzickap/petr.ruzicka.dev.svg?branch=master)](https://travis-ci.com/ruzickap/petr.ruzicka.dev)
+![Build Status](https://github.com/ruzickap/petr.ruzicka.dev/workflows/hugo-build/badge.svg)
 
 ## Instalation
 
