@@ -1,6 +1,6 @@
 # Personal web page
 
-![Build Status](https://github.com/ruzickap/petr.ruzicka.dev/workflows/hugo-build/badge.svg)
+[![Build Status](https://github.com/ruzickap/petr.ruzicka.dev/workflows/hugo-build/badge.svg)](https://github.com/ruzickap/petr.ruzicka.dev)
 
 ## Instalation
 
