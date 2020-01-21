@@ -24,6 +24,7 @@ jobs:
         env:
           EXCLUDE: |
             linkedin.com
+            html5up.net
         run: |
           if [ -s CNAME ]; then
             export INPUT_URL="https://$(cat CNAME)"
