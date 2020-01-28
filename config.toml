@@ -44,7 +44,7 @@ theme = "aerial"
 [[params.social]]
   medium = "Pixabay"
   icon = "camera"
-  link = "https://pixabay.com/en/users/ruzickap/"
+  link = "https://pixabay.com/users/ruzickap-7967890/"
 
 [[params.social]]
   medium = "Unsplash"
