@@ -23,8 +23,9 @@ jobs:
       - name: Broken link checker
         env:
           EXCLUDE: |
-            linkedin.com
             html5up.net
+            linkedin.com
+            pixabay.com
         run: |
           if [ -s CNAME ]; then
             export INPUT_URL="https://$(cat CNAME)"
