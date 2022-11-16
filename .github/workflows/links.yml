@@ -1,17 +1,15 @@
-name: periodic-broken-link-checks
+name: Links
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/periodic-broken-link-checks.yml
   schedule:
-    - cron: '3 3 * * 3'
+    - cron: "0 0 * * 1"
 
 jobs:
-  broken-link-checker:
+  linkChecker:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
 
       - name: Get GH Pages URL
         id: gh_pages_url
@@ -27,8 +25,17 @@ jobs:
             return result.data.html_url
           result-encoding: string
 
-      - name: Check broken links
-        uses: ruzickap/action-my-broken-link-checker@v2
+      - name: Restore lychee cache
+        uses: actions/cache@v3
         with:
-          url: ${{ steps.gh_pages_url.outputs.result }}
-          cmd_params: '--exclude=(linkedin.com|pixabay.com|html5up.net) --buffer-size=8192 --max-connections=10 --color=always --header="User-Agent:curl/7.54.0"'
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Link Checker
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: ". ${{ steps.gh_pages_url.outputs.result }}"
+          fail: true
