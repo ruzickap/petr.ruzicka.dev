@@ -37,5 +37,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: lycheeverse/lychee-action@v1
         with:
-          args: ". ${{ steps.gh_pages_url.outputs.result }}"
+          args: ". --exclude-path CHANGELOG.md ${{ steps.gh_pages_url.outputs.result }}"
           fail: true
