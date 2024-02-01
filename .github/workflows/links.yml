@@ -2,14 +2,14 @@ name: Links
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 1"
   push:
     branches-ignore:
       - main
     paths:
       - .github/workflows/links.yml
       - lychee.toml
+  schedule:
+    - cron: "0 0 * * 1"
 
 permissions: read-all
 
