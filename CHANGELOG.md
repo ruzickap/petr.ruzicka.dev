@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.0.0 (2024-07-28)
+
+
+### Features
+
+* add GitHub default templates ([#61](https://github.com/ruzickap/petr.ruzicka.dev/issues/61)) ([11921f8](https://github.com/ruzickap/petr.ruzicka.dev/commit/11921f896f6316ba1398349e012ac04f9537d6e3))
+* **broken-link:** Add GitHub Action instead of using script ([fe19f5f](https://github.com/ruzickap/petr.ruzicka.dev/commit/fe19f5f2f5399fadee9c13175d79ecf76b77593a))
+* **gh-actions:** add lint-pr-title ([db12082](https://github.com/ruzickap/petr.ruzicka.dev/commit/db12082a43fa0f31da5cf1d41916515963d17d1f))
+* **gh:** add default GitHub repo files ([#52](https://github.com/ruzickap/petr.ruzicka.dev/issues/52)) ([30f5be6](https://github.com/ruzickap/petr.ruzicka.dev/commit/30f5be6b8da657d1a5fca1c23ce02dbab6393cb8))
+* **gh:** add default GitHub repo files ([#54](https://github.com/ruzickap/petr.ruzicka.dev/issues/54)) ([48a59b7](https://github.com/ruzickap/petr.ruzicka.dev/commit/48a59b75fba9f9a762c6df84953dafc1b264cff9))
+* **gh:** add default GitHub repo files ([#55](https://github.com/ruzickap/petr.ruzicka.dev/issues/55)) ([b5fccd7](https://github.com/ruzickap/petr.ruzicka.dev/commit/b5fccd7633a1a8e894cef67d0f2beb812cef026f))
+* **gha:** unify GHA - renovate, megalinter, markdown, and others ([#37](https://github.com/ruzickap/petr.ruzicka.dev/issues/37)) ([492434d](https://github.com/ruzickap/petr.ruzicka.dev/commit/492434d7d64908700ead32413d840ed70e67784e))
+* **links:** add new GH action for checking links ([30b8b18](https://github.com/ruzickap/petr.ruzicka.dev/commit/30b8b1852e4efd595a7ef679f982e4080b222d6f))
+
+
+### Bug Fixes
+
+* **broken-link:** Remove timeout from periodic-broken-link-checks ([2dfaefa](https://github.com/ruzickap/petr.ruzicka.dev/commit/2dfaefa8044552318a5dfd6d74b2fd7afd0be5d0))
+* **gha:** add .lycheeignore to configure lychee ([#53](https://github.com/ruzickap/petr.ruzicka.dev/issues/53)) ([0aceadf](https://github.com/ruzickap/petr.ruzicka.dev/commit/0aceadf75dc5aad40f153cd6069633f6501c0124))
+* **gha:** fix build by removing typo ([#43](https://github.com/ruzickap/petr.ruzicka.dev/issues/43)) ([2674ba0](https://github.com/ruzickap/petr.ruzicka.dev/commit/2674ba0bff375ef64cb6aa7d1ff568b6a7376478))
+* **links:** exclude CHANGELOG from lychee ([169ba3f](https://github.com/ruzickap/petr.ruzicka.dev/commit/169ba3f73217a566b4cd5b6d2537e7889b90aaaf))
+
 ## v0.0.1 (2020-05-10)
 
 - Add .pre-commit-config.yaml and .release-it.yml to .gitignore [`418198a`](https://github.com/ruzickap/petr.ruzicka.dev/commit/418198aeaf0413105af77a9581d5525a198cdf32)
