@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ruzickap/petr.ruzicka.dev/compare/v1.0.0...v1.1.0) (2025-03-02)
+
+
+### Features
+
+* **gh:** add default github repo files ([#67](https://github.com/ruzickap/petr.ruzicka.dev/issues/67)) ([aac33e2](https://github.com/ruzickap/petr.ruzicka.dev/commit/aac33e2e2cd6b87e168c5252ce13d526698a68d0))
+
 ## 1.0.0 (2024-07-28)
 
 
