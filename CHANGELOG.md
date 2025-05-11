@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/ruzickap/petr.ruzicka.dev/compare/v1.0.0...v1.1.0) (2025-05-11)
+
+
+### Features
+
+* **gh:** add default github repo files ([#67](https://github.com/ruzickap/petr.ruzicka.dev/issues/67)) ([aac33e2](https://github.com/ruzickap/petr.ruzicka.dev/commit/aac33e2e2cd6b87e168c5252ce13d526698a68d0))
+* **gh:** add default github repo files ([#81](https://github.com/ruzickap/petr.ruzicka.dev/issues/81)) ([5d97fc4](https://github.com/ruzickap/petr.ruzicka.dev/commit/5d97fc4412a465593715d7066039fc679abfd316))
+
+
+### Bug Fixes
+
+* fix action-my-broken-link-checker ([#73](https://github.com/ruzickap/petr.ruzicka.dev/issues/73)) ([3fa0376](https://github.com/ruzickap/petr.ruzicka.dev/commit/3fa037604ecd7a5d223312e851de312306cef146))
+* update cmd_params to exclude unsplash.com in link checker ([#79](https://github.com/ruzickap/petr.ruzicka.dev/issues/79)) ([4639ed1](https://github.com/ruzickap/petr.ruzicka.dev/commit/4639ed157a533d43064bdefe95844c7fbef05308))
+
 ## 1.0.0 (2024-07-28)
 
 
