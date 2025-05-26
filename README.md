@@ -22,10 +22,13 @@ Make sure you have Git installed on your system.
 ### Cloning
 
 1. Clone the repo:
+
    ```bash
    git clone --recurse-submodules https://github.com/ruzickap/petr.ruzicka.dev.git
    ```
+
 2. Navigate to the project directory:
+
    ```bash
    cd petr.ruzicka.dev
    ```
@@ -51,11 +54,14 @@ Just download binary from [https://github.com/gohugoio/hugo/releases](https://gi
 Once you have cloned the repository and installed Hugo, you can run the site locally.
 
 - Run local web server:
+
   ```bash
   hugo server --buildDrafts
   ```
 
 - Generate new version (for deployment):
+
   ```bash
   hugo -d public
   ```
+
