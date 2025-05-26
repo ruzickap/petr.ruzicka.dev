@@ -1,6 +1,9 @@
 # Petr Ruzicka's Personal Website (petr.ruzicka.dev)
 
-This repository contains the source code for Petr Ruzicka's personal website (petr.ruzicka.dev), built with Hugo and the Aerial theme. The website showcases his work as a DevOps specialist and SysAdmin, as well as his photography.
+This repository contains the source code for Petr Ruzicka's personal website
+(petr.ruzicka.dev), built with Hugo and the Aerial theme. The website
+showcases his work as a DevOps specialist and SysAdmin, as well as his
+photography.
 
 [![Build Status](https://github.com/ruzickap/petr.ruzicka.dev/workflows/hugo-build/badge.svg)](https://github.com/ruzickap/petr.ruzicka.dev)
 
