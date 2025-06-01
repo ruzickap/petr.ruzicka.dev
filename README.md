@@ -30,7 +30,7 @@ Make sure you have Git installed on your system.
 2. Navigate to the project directory:
 
    ```bash
-   cd petr.ruzicka.dev
+   cd petr.ruzicka.dev || exit
    ```
 
 ## Theme
@@ -64,4 +64,3 @@ Once you have cloned the repository and installed Hugo, you can run the site loc
   ```bash
   hugo -d public
   ```
-
