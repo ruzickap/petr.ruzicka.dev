@@ -41,7 +41,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						{{ with .Site.Params.copyright }}<span class="copyright">© {{ . }}. {{ else }}<span>{{ end }}Design: <a href="https://html5up.net">HTML5 UP</a>. Powered by <a href="https://www.gohugo.io/">Hugo.</a></span>
+						<span{{ if .Site.Params.copyright }} class="copyright">© {{ .Site.Params.copyright }}. {{ else }}>{{ end }}Design: <a href="https://html5up.net">HTML5 UP</a>. Powered by <a href="https://www.gohugo.io/">Hugo.</a></span>
 					</footer>
 
 			</div>
