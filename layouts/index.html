@@ -33,7 +33,7 @@
 						<nav>
 							<ul>
 								{{ range .Site.Params.social }}
-								<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+								<li><a href="{{ .link | safeURL }}" rel="me" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
 								{{ end }}
 							</ul>
 						</nav>
