@@ -11,14 +11,9 @@ theme = "aerial"
   bg_scroll = ""
   favicon = "favicon.ico"
 
-# Professional/Work/Contacts
+# Professional
 [[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "mailto:petr.ruzicka@gmail.com"
-
-[[params.social]]
-  medium = "Home Page"
+  medium = "Blog"
   icon = "home"
   link = "https://ruzickap.github.io"
 
@@ -35,7 +30,7 @@ theme = "aerial"
 # Social Media
 [[params.social]]
   medium = "Mastodon"
-  icon = "mastodon"
+  icon = "user"
   link = "https://mastodon.social/@ruzickap"
 
 [[params.social]]
