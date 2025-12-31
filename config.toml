@@ -11,10 +11,16 @@ theme = "aerial"
   bg_scroll = ""
   favicon = "favicon.ico"
 
+# Professional/Work/Contacts
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "mailto:petr.ruzicka@gmail.com"
+
 [[params.social]]
   medium = "Home Page"
   icon = "home"
-  link = "https://linux.xvx.cz"
+  link = "https://ruzickap.github.io"
 
 [[params.social]]
   medium = "LinkedIn"
@@ -26,6 +32,23 @@ theme = "aerial"
   icon = "github"
   link = "https://github.com/ruzickap/"
 
+# Social Media
+[[params.social]]
+  medium = "Mastodon"
+  icon = "mastodon"
+  link = "https://mastodon.social/@ruzickap"
+
+[[params.social]]
+  medium = "Facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/petr.ruzicka"
+
+[[params.social]]
+  medium = "Instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/petr.ruzicka_cz/"
+
+# Photography
 [[params.social]]
   medium = "500px"
   icon = "500px"
@@ -37,11 +60,6 @@ theme = "aerial"
   link = "https://www.flickr.com/photos/petrruzicka/"
 
 [[params.social]]
-  medium = "Instagram"
-  icon = "instagram"
-  link = "https://www.instagram.com/petr.ruzicka_cz/"
-
-[[params.social]]
   medium = "Pixabay"
   icon = "camera"
   link = "https://pixabay.com/users/ruzickap-7967890/"
@@ -50,13 +68,3 @@ theme = "aerial"
   medium = "Unsplash"
   icon = "camera-retro"
   link = "https://unsplash.com/@ruzickap/"
-
-[[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
-  link = "https://www.facebook.com/petr.ruzicka"
-
-[[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "mailto:petr.ruzicka@gmail.com"
