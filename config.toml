@@ -31,7 +31,7 @@ theme = "aerial"
 [[params.social]]
   medium = "Mastodon"
   icon = "user"
-  link = "https://mastodon.social/@ruzickap"
+  link = "https://mastodon.social/@petr_ruzicka"
 
 [[params.social]]
   medium = "Facebook"
