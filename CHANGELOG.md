@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.0](https://github.com/ruzickap/petr.ruzicka.dev/compare/v1.0.0...v1.1.0) (2026-01-01)
+
+
+### Features
+
+* add default github repo files ([#84](https://github.com/ruzickap/petr.ruzicka.dev/issues/84)) ([2cf33b0](https://github.com/ruzickap/petr.ruzicka.dev/commit/2cf33b09139b97ff2873a3744a0bfe0e0a5e0dec))
+* add default github repo files ([#87](https://github.com/ruzickap/petr.ruzicka.dev/issues/87)) ([9b980fa](https://github.com/ruzickap/petr.ruzicka.dev/commit/9b980fa5b8d8c762ffb667c63a179e377c54228f))
+* add/update default repository files ([#90](https://github.com/ruzickap/petr.ruzicka.dev/issues/90)) ([404bf87](https://github.com/ruzickap/petr.ruzicka.dev/commit/404bf8760380f8b99f2d9d002f8ccdc5c3814019))
+* add/update default repository files ([#94](https://github.com/ruzickap/petr.ruzicka.dev/issues/94)) ([5f79554](https://github.com/ruzickap/petr.ruzicka.dev/commit/5f795548d83c2ac5ddc20a1303a6469e778ae6bf))
+* **gh:** add default github repo files ([#67](https://github.com/ruzickap/petr.ruzicka.dev/issues/67)) ([aac33e2](https://github.com/ruzickap/petr.ruzicka.dev/commit/aac33e2e2cd6b87e168c5252ce13d526698a68d0))
+* **gh:** add default github repo files ([#81](https://github.com/ruzickap/petr.ruzicka.dev/issues/81)) ([5d97fc4](https://github.com/ruzickap/petr.ruzicka.dev/commit/5d97fc4412a465593715d7066039fc679abfd316))
+* update social media links and enhance Renovate configuration ([#107](https://github.com/ruzickap/petr.ruzicka.dev/issues/107)) ([0bb0457](https://github.com/ruzickap/petr.ruzicka.dev/commit/0bb045796663b9ddea9b336b040ca57d5f9e08fe))
+
+
+### Bug Fixes
+
+* fix action-my-broken-link-checker ([#73](https://github.com/ruzickap/petr.ruzicka.dev/issues/73)) ([3fa0376](https://github.com/ruzickap/petr.ruzicka.dev/commit/3fa037604ecd7a5d223312e851de312306cef146))
+* update cmd_params to exclude unsplash.com in link checker ([#79](https://github.com/ruzickap/petr.ruzicka.dev/issues/79)) ([4639ed1](https://github.com/ruzickap/petr.ruzicka.dev/commit/4639ed157a533d43064bdefe95844c7fbef05308))
+* update Mastodon link in social media configuration ([#109](https://github.com/ruzickap/petr.ruzicka.dev/issues/109)) ([d41ab95](https://github.com/ruzickap/petr.ruzicka.dev/commit/d41ab95a69d80cb4cc16fa146172b2a25e6e6547))
+* update pixabay URL format and add 429 status to accepted codes ([#85](https://github.com/ruzickap/petr.ruzicka.dev/issues/85)) ([474cfc2](https://github.com/ruzickap/petr.ruzicka.dev/commit/474cfc272809f4f6f05b531f1b5ffa61c7488555))
+
 ## 1.0.0 (2024-07-28)
 
 
