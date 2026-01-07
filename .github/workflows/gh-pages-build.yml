@@ -34,10 +34,10 @@ jobs:
         with:
           submodules: true
 
-      - name: Setup Hugo
+      - name: ⚙️ Install Hugo static site generator
         uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f # v3.0.0
 
-      - name: Set Variables
+      - name: 📝 Configure deployment variables
         run: |
           set -euo pipefail
           CLOUDFLARE_PAGES_PROJECT=$(echo "${GITHUB_REPOSITORY#*/}" | tr . - )
@@ -51,13 +51,13 @@ jobs:
           echo "BASE_DOMAIN=${BASE_DOMAIN}" | tee -a "${GITHUB_OUTPUT}"
           echo "CLOUDFLARE_PAGES_PROJECT=${CLOUDFLARE_PAGES_PROJECT}" | tee -a "${GITHUB_OUTPUT}"
 
-      - name: Build
+      - name: 🔨 Build Hugo site
         run: |
           hugo build --minify --printPathWarnings --printPathWarnings --printI18nWarnings --panicOnWarning --baseURL "${CLOUDFLARE_PAGES_PROJECT}"
           cp LICENSE README.md public/
           touch public/.nojekyll
 
-      - name: Restore lychee cache
+      - name: 📦 Restore link checker cache
         id: restore-cache
         uses: actions/cache/restore@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
         with:
@@ -65,7 +65,7 @@ jobs:
           key: cache-lychee-${{ github.sha }}
           restore-keys: cache-lychee-
 
-      - name: Link Checker
+      - name: 🔗 Check for broken links
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: lycheeverse/lychee-action@a8c4c7cb88f0c7386610c35eb25108e448569cb0 # v2.7.0
@@ -73,11 +73,11 @@ jobs:
           args: --root-dir "${PWD}/public" --no-progress public
           fail: ${{ inputs.skip_link_checker && 'false' || 'true' }}
 
-      - name: Setup Pages
+      - name: 📄 Configure GitHub Pages
         id: pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
 
-      - name: Deploy
+      - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4.0.0
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
@@ -86,13 +86,13 @@ jobs:
           force_orphan: true
           cname: ${{ steps.pages.outputs.host }}
 
-      - name: Web Page
+      - name: 📊 Generate workflow summary
         run: |
           cat << EOF | tee -a "${GITHUB_STEP_SUMMARY}"
-          * :low_brightness: <https://${{ steps.variables.outputs.BASE_DOMAIN }}>
+          * :rocket: Deployed to: <https://${BASE_DOMAIN}>
           EOF
 
-      - name: Publish to Cloudflare Pages
+      - name: ☁️ Deploy preview to Cloudflare Pages
         uses: cloudflare/wrangler-action@da0e0dfe58b7a431659754fdf3f186c529afbe65 # v3.14.1
         if: ${{ github.ref != 'refs/heads/main' && github.ref != 'refs/heads/gh-pages' }}
         with:
@@ -101,7 +101,7 @@ jobs:
           command: pages deploy ./public --branch=dev --commit-dirty=true --project-name=${{ steps.variables.outputs.CLOUDFLARE_PAGES_PROJECT }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Save lychee cache
+      - name: 💾 Save link checker cache
         uses: actions/cache/save@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
         if: always() && steps.restore-cache.outputs.cache-primary-key
         with:
