@@ -50,7 +50,6 @@ jobs:
 
           echo "BASE_DOMAIN=${BASE_DOMAIN}" | tee -a "${GITHUB_OUTPUT}"
           echo "CLOUDFLARE_PAGES_PROJECT=${CLOUDFLARE_PAGES_PROJECT}" | tee -a "${GITHUB_OUTPUT}"
-          sed -i "s@^baseURL = \"https://yourdomain.com/\"@baseURL = \"https://${BASE_DOMAIN}/\"@" hugo.toml
 
       - name: Build
         run: |
