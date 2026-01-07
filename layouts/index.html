@@ -1,87 +1,39 @@
 <!doctype html>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html lang="en">
-  <head>
-    <title>{{ .Title }}</title>
-    <meta name="description" content="page" />
-    <meta name="keywords" content="page" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="css/main.css" />
-    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
-    {{ with .Site.Params.favicon }}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}" />
-    <link rel="icon" type="image/x-icon" href="{{ . | absURL }}" />
-    {{ end }}
-  </head>
-  <body class="loading">
-    <div id="wrapper">
-      <div
-        id="bg"
-        {{
-        with
-        .Site.Params.bg_scroll}}
-        class="no-scroll"
-        {{end}}
-      ></div>
-      <div id="overlay"></div>
-      <div id="main">
-        <!-- Header -->
-        <header id="header">
-          <h1>{{ .Site.Params.name | safeHTML }}</h1>
-          <p>{{ .Site.Params.about | safeHTML }}</p>
-          <nav>
-            <ul>
-              {{ range .Site.Params.social }}
-              <li>
-                <a
-                  href="{{ .link | safeURL }}"
-                  rel="me"
-                  class="icon fa-{{ .icon }}"
-                  ><span class="label">{{ .medium }}</span></a
-                >
-              </li>
-              {{ end }}
-            </ul>
-          </nav>
-        </header>
+  {{ partial "head.html" . }}
+  <body>
+    <!-- Background Animation -->
+    <div class="bg-animation" id="bgAnimation"></div>
 
-        <!-- Footer -->
-        <footer id="footer">
-          {{ if .Site.Params.copyright -}}
-          <span class="copyright"
-            >© {{ .Site.Params.copyright }}. Design:
-            <a href="https://html5up.net">HTML5 UP</a>. Powered by
-            <a href="https://gohugo.io/">Hugo.</a></span
-          >
-          {{- else -}}
-          <span
-            >Design: <a href="https://html5up.net">HTML5 UP</a>. Powered by
-            <a href="https://gohugo.io/">Hugo.</a></span
-          >
-          {{- end }}
+    <div class="container mx-auto px-4 py-12 max-w-md">
+      <!-- Profile Section -->
+      {{ partial "profile.html" . }}
+
+      <!-- Links Section -->
+      {{ partial "link-card.html" . }}
+
+      <!-- Spotify Embed -->
+      <!-- {{ partial "spotify-playlist.html" . }} -->
+
+      <!-- Messaging Etiquette section -->
+      <!-- {{ partial "messaging-etiquette.html" . }} -->
+
+      <!-- Embed with hue-shift filter -->
+      <!-- style="filter: hue-rotate(150deg) saturate(0.6) brightness(0.9);" -->
+
+      <!-- About Me section (If you want to write about yourself, uncomment the section below)-->
+      <!-- {{ partial "about.html" . }} -->
+
+      <!-- Instructions section (After you're done adding your links, remove or comment the line below) -->
+      <!-- {{ partial "instructions.html" . }} -->
+
+      <!--
+        <footer class="text-center text-xs opacity-60">
+            © 2025 LucentLink | Made with ❤️
         </footer>
-      </div>
+        -->
     </div>
-    <!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
-    <script>
-      window.onload = function () {
-        document.body.className = "";
-      };
-      window.ontouchmove = function () {
-        return false;
-      };
-      window.onorientationchange = function () {
-        document.body.scrollTop = 0;
-      };
-    </script>
 
-    {{ partial "js.html" . }}
+    <script src="js/script.js"></script>
   </body>
 </html>

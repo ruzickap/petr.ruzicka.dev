@@ -1,4 +1,7 @@
 # keep-sorted start newline_separated=yes
+# Hugo build lock file
+.hugo_build.lock
+
 # pre-commit configuration file
 .pre-commit-config.yaml
 

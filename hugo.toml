@@ -1,0 +1,12 @@
+baseURL = "https://petr.ruzicka.dev/"
+languageCode = "en-us"
+title = "Petr Ruzicka"
+theme = "LucentLink-Hugo"
+minVersion = "0.115.0"
+
+[params]
+  description     = "A clean, customizable, and responsive Linktree-style landing page built using HTML, Tailwind CSS, and Font Awesome."
+  googleAnalytics = ""    # your GA ID, if any
+
+[outputs]
+  home = ["HTML"]
