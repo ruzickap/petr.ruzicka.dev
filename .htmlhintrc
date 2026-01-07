@@ -1,7 +1,0 @@
-// https://github.com/htmlhint/HTMLHint/issues/222
-{
-  "attr-lowercase": false,
-  "space-tab-mixed-disabled": false,
-  "id-class-value": false,
-  "spec-char-escape": false
-}

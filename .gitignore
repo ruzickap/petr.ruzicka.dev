@@ -2,8 +2,9 @@
 # pre-commit configuration file
 .pre-commit-config.yaml
 
-# Generated files by Hugo
+# Hugo build output (rendered static site)
 public/
 
+# Hugo resource cache (processed images, compiled SCSS, etc.)
 resources/_gen/
 # keep-sorted end
