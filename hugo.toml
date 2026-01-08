@@ -1,4 +1,4 @@
-baseURL = "https://example.com/" # Placeholder - overridden by GitHub Actions gh-pages-build.yml
+baseURL = "https://petr.ruzicka.dev/"
 languageCode = "en-us"
 title = "Petr Ruzicka"
 theme = "LucentLink-Hugo"
