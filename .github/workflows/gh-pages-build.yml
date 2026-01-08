@@ -16,10 +16,11 @@ on:
       - renovate/**
     paths:
       - content
+      - data
+      - hugo.toml
       - layouts
       - static
       - themes
-      - config.toml
 
 permissions: read-all
 
