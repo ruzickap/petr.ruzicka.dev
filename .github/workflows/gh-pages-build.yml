@@ -49,6 +49,7 @@ jobs:
           fi
 
           echo "BASE_DOMAIN=${BASE_DOMAIN}" | tee -a "${GITHUB_OUTPUT}"
+          echo ":rocket: Deployed to: <https://${BASE_DOMAIN}>" | tee -a "${GITHUB_STEP_SUMMARY}"
           echo "CLOUDFLARE_PAGES_PROJECT=${CLOUDFLARE_PAGES_PROJECT}" | tee -a "${GITHUB_OUTPUT}"
 
       - name: 🔨 Build Hugo site
@@ -85,12 +86,6 @@ jobs:
           publish_dir: ./public
           force_orphan: true
           cname: ${{ steps.pages.outputs.host }}
-
-      - name: 📊 Generate workflow summary
-        run: |
-          cat << EOF | tee -a "${GITHUB_STEP_SUMMARY}"
-          * :rocket: Deployed to: <https://${BASE_DOMAIN}>
-          EOF
 
       - name: ☁️ Deploy preview to Cloudflare Pages
         uses: cloudflare/wrangler-action@da0e0dfe58b7a431659754fdf3f186c529afbe65 # v3.14.1
