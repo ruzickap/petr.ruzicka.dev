@@ -1,0 +1,12 @@
+baseURL = "https://example.com/" # Placeholder - overridden by GitHub Actions gh-pages-build.yml
+languageCode = "en-us"
+title = "Petr Ruzicka"
+theme = "LucentLink-Hugo"
+minVersion = "0.115.0"
+
+[params]
+  description     = "Petr Ruzicka's personal website - DevSecOps specialist, SysAdmin, and photographer."
+  googleAnalytics = "G-GBZ8EZ2VLS"
+
+[outputs]
+  home = ["HTML"]
