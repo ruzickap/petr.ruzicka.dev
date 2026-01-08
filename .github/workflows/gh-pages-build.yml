@@ -50,13 +50,13 @@ jobs:
             BASE_DOMAIN="${CLOUDFLARE_PAGES_PROJECT}.pages.dev"
           fi
 
-          echo "BASE_DOMAIN=${BASE_DOMAIN}" | tee -a "${GITHUB_OUTPUT}"
+          echo "BASE_DOMAIN=${BASE_DOMAIN}" | tee -a "${GITHUB_ENV}"
           echo ":rocket: Deployed to: <https://${BASE_DOMAIN}>" | tee -a "${GITHUB_STEP_SUMMARY}"
-          echo "CLOUDFLARE_PAGES_PROJECT=${CLOUDFLARE_PAGES_PROJECT}" | tee -a "${GITHUB_OUTPUT}"
+          echo "CLOUDFLARE_PAGES_PROJECT=${CLOUDFLARE_PAGES_PROJECT}" | tee -a "${GITHUB_ENV}"
 
       - name: 🔨 Build Hugo site
         run: |
-          hugo build --minify --printPathWarnings --printPathWarnings --printI18nWarnings --panicOnWarning --baseURL "${CLOUDFLARE_PAGES_PROJECT}"
+          hugo build --minify --printPathWarnings --printPathWarnings --printI18nWarnings --panicOnWarning --baseURL "https://${BASE_DOMAIN}"
           cp LICENSE README.md public/
           touch public/.nojekyll
 
