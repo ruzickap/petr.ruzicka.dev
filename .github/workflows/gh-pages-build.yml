@@ -47,7 +47,7 @@ jobs:
           if [[ "${GITHUB_REF_NAME}" = "main" ]]; then
             BASE_DOMAIN="${GITHUB_REPOSITORY#*/}"
           else
-            BASE_DOMAIN="${CLOUDFLARE_PAGES_PROJECT}.pages.dev"
+            BASE_DOMAIN="dev.${CLOUDFLARE_PAGES_PROJECT}.pages.dev"
           fi
 
           echo "BASE_DOMAIN=${BASE_DOMAIN}" | tee -a "${GITHUB_ENV}"
