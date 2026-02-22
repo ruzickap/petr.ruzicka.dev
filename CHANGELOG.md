@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/ruzickap/petr.ruzicka.dev/compare/v1.1.0...v2.0.0) (2026-02-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to LucentLink-Hugo theme and restructure site config ([#111](https://github.com/ruzickap/petr.ruzicka.dev/issues/111))
+
+### Features
+
+* migrate to LucentLink-Hugo theme and restructure site config ([#111](https://github.com/ruzickap/petr.ruzicka.dev/issues/111)) ([debc6ea](https://github.com/ruzickap/petr.ruzicka.dev/commit/debc6ea04263d56fe6c6c1d4f28c3fc0e7a22808))
+
+
+### Bug Fixes
+
+* disable taxonomy kinds in site configuration ([#114](https://github.com/ruzickap/petr.ruzicka.dev/issues/114)) ([43a301c](https://github.com/ruzickap/petr.ruzicka.dev/commit/43a301ce3f1fce9fbfdd1341058720eec8621b31))
+* update GitHub Actions workflow to use GITHUB_ENV ([#113](https://github.com/ruzickap/petr.ruzicka.dev/issues/113)) ([a1cfb98](https://github.com/ruzickap/petr.ruzicka.dev/commit/a1cfb9858a6f35506ebabc36e0bcb5cd93d77ccb))
+
 ## [1.1.0](https://github.com/ruzickap/petr.ruzicka.dev/compare/v1.0.0...v1.1.0) (2026-01-01)
 
 
