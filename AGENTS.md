@@ -30,11 +30,11 @@ hugo -d public
 rumdl .
 
 # Shell script / code block validation
-shellcheck <script.sh>
-shfmt --case-indent --indent 2 --space-redirects --diff <script.sh>
+shellcheck script.sh
+shfmt --case-indent --indent 2 --space-redirects --diff script.sh
 
 # JSON validation (comments allowed)
-jsonlint --comments <file.json>
+jsonlint --comments file.json
 
 # Link checking (after building to public/)
 lychee --root-dir ./public --no-progress public
