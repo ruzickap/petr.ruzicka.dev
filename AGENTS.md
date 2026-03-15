@@ -63,6 +63,7 @@ entirely through linting, link checking, and security scanning in CI.
 ### Markdown
 
 - Linter: `rumdl` (not markdownlint). Config: `.rumdl.toml`
+- Wrap lines at 80 characters for readability
 - Proper heading hierarchy (never skip levels)
 - Language identifiers on all code fences (`bash`, `json`, etc.)
 - Prefer code fences over inline code for multi-line examples
