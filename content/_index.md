@@ -20,6 +20,8 @@ socials:
     icon: "fab fa-instagram"
   - url: "https://mastodon.social/@petr_ruzicka"
     icon: "fab fa-mastodon"
+  - url: "https://bsky.app/profile/petrruzicka.bsky.social"
+    icon: "fab fa-bluesky"
   # Photography
   - url: "https://500px.com/petrruzicka"
     icon: "fab fa-500px"
@@ -58,6 +60,10 @@ links:
     icon: "fab fa-mastodon"
     title: "Mastodon"
     description: "Connect with me on Mastodon"
+  - href: "https://bsky.app/profile/petrruzicka.bsky.social"
+    icon: "fab fa-bluesky"
+    title: "Bluesky"
+    description: "Follow me on Bluesky"
   # Photography
   - href: "https://500px.com/petrruzicka"
     icon: "fab fa-500px"
