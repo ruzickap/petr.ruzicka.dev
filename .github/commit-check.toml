@@ -1,0 +1,11 @@
+[branch]
+allow_branch_types = [
+  "bugfix",
+  "chore",
+  "copilot",
+  "feat",
+  "feature",
+  "fix",
+  "hotfix",
+  "release",
+]
