@@ -9,14 +9,14 @@ socials:
   - url: "https://ruzickap.github.io"
     icon: "fas fa-blog"
   # Professional
-  # keep-sorted start block=yes
+  # keep-sorted start
   - url: "https://github.com/ruzickap"
     icon: "fab fa-github"
   - url: "https://www.linkedin.com/in/petrruzicka"
     icon: "fab fa-linkedin"
   # keep-sorted end
   # Social Media
-  # keep-sorted start block=yes
+  # keep-sorted start
   - url: "https://bsky.app/profile/petrruzicka.bsky.social"
     icon: "fab fa-bluesky"
   - url: "https://mastodon.social/@petr_ruzicka"
@@ -33,7 +33,7 @@ socials:
     icon: "fab fa-x-twitter"
   # keep-sorted end
   # Photography
-  # keep-sorted start block=yes
+  # keep-sorted start
   - url: "https://500px.com/petrruzicka"
     icon: "fab fa-500px"
   - url: "https://pixabay.com/users/ruzickap-7967890/"
@@ -51,7 +51,7 @@ links:
     title: "Petr's Blog"
     description: "Check out my blog"
   # Professional
-  # keep-sorted start block=yes
+  # keep-sorted start
   - href: "https://github.com/ruzickap"
     icon: "fab fa-github"
     title: "GitHub"
@@ -62,7 +62,7 @@ links:
     description: "Connect with me professionally"
   # keep-sorted end
   # Social Media
-  # keep-sorted start block=yes
+  # keep-sorted start
   - href: "https://bsky.app/profile/petrruzicka.bsky.social"
     icon: "fab fa-bluesky"
     title: "Bluesky"
@@ -93,7 +93,7 @@ links:
     description: "Follow me on X"
   # keep-sorted end
   # Photography
-  # keep-sorted start block=yes
+  # keep-sorted start
   - href: "https://500px.com/petrruzicka"
     icon: "fab fa-500px"
     title: "500px"
