@@ -9,34 +9,40 @@ socials:
   - url: "https://ruzickap.github.io"
     icon: "fas fa-blog"
   # Professional
-  - url: "https://www.linkedin.com/in/petrruzicka"
-    icon: "fab fa-linkedin"
+  # keep-sorted start block=yes
   - url: "https://github.com/ruzickap"
     icon: "fab fa-github"
+  - url: "https://www.linkedin.com/in/petrruzicka"
+    icon: "fab fa-linkedin"
+  # keep-sorted end
   # Social Media
+  # keep-sorted start block=yes
+  - url: "https://bsky.app/profile/petrruzicka.bsky.social"
+    icon: "fab fa-bluesky"
+  - url: "https://mastodon.social/@petr_ruzicka"
+    icon: "fab fa-mastodon"
   - url: "https://medium.com/@petr.ruzicka"
     icon: "fab fa-medium"
   - url: "https://www.facebook.com/petr.ruzicka"
     icon: "fab fa-facebook"
   - url: "https://www.instagram.com/petr.ruzicka_cz"
     icon: "fab fa-instagram"
-  - url: "https://mastodon.social/@petr_ruzicka"
-    icon: "fab fa-mastodon"
-  - url: "https://bsky.app/profile/petrruzicka.bsky.social"
-    icon: "fab fa-bluesky"
   - url: "https://www.threads.com/@petr.ruzicka_cz"
     icon: "fab fa-threads"
   - url: "https://x.com/Ruzicka_Petr"
     icon: "fab fa-x-twitter"
+  # keep-sorted end
   # Photography
+  # keep-sorted start block=yes
   - url: "https://500px.com/petrruzicka"
     icon: "fab fa-500px"
-  - url: "https://www.flickr.com/photos/petrruzicka/"
-    icon: "fab fa-flickr"
   - url: "https://pixabay.com/users/ruzickap-7967890/"
     icon: "fas fa-camera"
   - url: "https://unsplash.com/@ruzickap/"
     icon: "fas fa-camera-retro"
+  - url: "https://www.flickr.com/photos/petrruzicka/"
+    icon: "fab fa-flickr"
+  # keep-sorted end
 # Link cards
 links:
   # Personal
@@ -45,15 +51,26 @@ links:
     title: "Petr's Blog"
     description: "Check out my blog"
   # Professional
-  - href: "https://www.linkedin.com/in/petrruzicka"
-    icon: "fab fa-linkedin"
-    title: "LinkedIn"
-    description: "Connect with me professionally"
+  # keep-sorted start block=yes
   - href: "https://github.com/ruzickap"
     icon: "fab fa-github"
     title: "GitHub"
     description: "Explore my open-source projects"
+  - href: "https://www.linkedin.com/in/petrruzicka"
+    icon: "fab fa-linkedin"
+    title: "LinkedIn"
+    description: "Connect with me professionally"
+  # keep-sorted end
   # Social Media
+  # keep-sorted start block=yes
+  - href: "https://bsky.app/profile/petrruzicka.bsky.social"
+    icon: "fab fa-bluesky"
+    title: "Bluesky"
+    description: "Follow me on Bluesky"
+  - href: "https://mastodon.social/@petr_ruzicka"
+    icon: "fab fa-mastodon"
+    title: "Mastodon"
+    description: "Connect with me on Mastodon"
   - href: "https://medium.com/@petr.ruzicka"
     icon: "fab fa-medium"
     title: "Medium"
@@ -66,14 +83,6 @@ links:
     icon: "fab fa-instagram"
     title: "Instagram"
     description: "See my photos and stories"
-  - href: "https://mastodon.social/@petr_ruzicka"
-    icon: "fab fa-mastodon"
-    title: "Mastodon"
-    description: "Connect with me on Mastodon"
-  - href: "https://bsky.app/profile/petrruzicka.bsky.social"
-    icon: "fab fa-bluesky"
-    title: "Bluesky"
-    description: "Follow me on Bluesky"
   - href: "https://www.threads.com/@petr.ruzicka_cz"
     icon: "fab fa-threads"
     title: "Threads"
@@ -82,15 +91,13 @@ links:
     icon: "fab fa-x-twitter"
     title: "X"
     description: "Follow me on X"
+  # keep-sorted end
   # Photography
+  # keep-sorted start block=yes
   - href: "https://500px.com/petrruzicka"
     icon: "fab fa-500px"
     title: "500px"
     description: "View my photography portfolio"
-  - href: "https://www.flickr.com/photos/petrruzicka/"
-    icon: "fab fa-flickr"
-    title: "Flickr"
-    description: "Browse my photo albums"
   - href: "https://pixabay.com/users/ruzickap-7967890/"
     icon: "fas fa-camera"
     title: "Pixabay"
@@ -99,4 +106,9 @@ links:
     icon: "fas fa-camera-retro"
     title: "Unsplash"
     description: "High-resolution photos for free"
+  - href: "https://www.flickr.com/photos/petrruzicka/"
+    icon: "fab fa-flickr"
+    title: "Flickr"
+    description: "Browse my photo albums"
+  # keep-sorted end
 ---
