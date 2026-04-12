@@ -26,6 +26,8 @@ socials:
     icon: "fab fa-bluesky"
   - url: "https://www.threads.com/@petr.ruzicka_cz"
     icon: "fab fa-threads"
+  - url: "https://x.com/Ruzicka_Petr"
+    icon: "fab fa-x-twitter"
   # Photography
   - url: "https://500px.com/petrruzicka"
     icon: "fab fa-500px"
@@ -76,6 +78,10 @@ links:
     icon: "fab fa-threads"
     title: "Threads"
     description: "Follow me on Threads"
+  - href: "https://x.com/Ruzicka_Petr"
+    icon: "fab fa-x-twitter"
+    title: "X"
+    description: "Follow me on X"
   # Photography
   - href: "https://500px.com/petrruzicka"
     icon: "fab fa-500px"
