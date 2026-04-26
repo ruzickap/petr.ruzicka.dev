@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.0.0](https://github.com/ruzickap/petr.ruzicka.dev/compare/v1.1.0...v2.0.0) (2026-04-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to LucentLink-Hugo theme and restructure site config ([#111](https://github.com/ruzickap/petr.ruzicka.dev/issues/111))
+
+### Features
+
+* add Bluesky social link ([#123](https://github.com/ruzickap/petr.ruzicka.dev/issues/123)) ([68bedd6](https://github.com/ruzickap/petr.ruzicka.dev/commit/68bedd68f68ca9d903e9e5e1600497466c26bbbd))
+* add favicon support ([#116](https://github.com/ruzickap/petr.ruzicka.dev/issues/116)) ([81a7cc8](https://github.com/ruzickap/petr.ruzicka.dev/commit/81a7cc810ecc5dcb026171a4e31084a732ad2f5b))
+* add medium and threads profile links ([#125](https://github.com/ruzickap/petr.ruzicka.dev/issues/125)) ([5d286a9](https://github.com/ruzickap/petr.ruzicka.dev/commit/5d286a9ce7d8d6b8080ca0ae2f214e3dce936971))
+* add X (Twitter) social link ([#128](https://github.com/ruzickap/petr.ruzicka.dev/issues/128)) ([590810b](https://github.com/ruzickap/petr.ruzicka.dev/commit/590810bf2024c7e444a969ee89abeffc3b37a129))
+* migrate to LucentLink-Hugo theme and restructure site config ([#111](https://github.com/ruzickap/petr.ruzicka.dev/issues/111)) ([debc6ea](https://github.com/ruzickap/petr.ruzicka.dev/commit/debc6ea04263d56fe6c6c1d4f28c3fc0e7a22808))
+* move Medium above Facebook in socials and links ([#127](https://github.com/ruzickap/petr.ruzicka.dev/issues/127)) ([08ecdbb](https://github.com/ruzickap/petr.ruzicka.dev/commit/08ecdbba6a7797057f6346884cbd8d13e512644e))
+
+
+### Bug Fixes
+
+* disable taxonomy kinds in site configuration ([#114](https://github.com/ruzickap/petr.ruzicka.dev/issues/114)) ([43a301c](https://github.com/ruzickap/petr.ruzicka.dev/commit/43a301ce3f1fce9fbfdd1341058720eec8621b31))
+* exclude unsplash.com from link checker ([#122](https://github.com/ruzickap/petr.ruzicka.dev/issues/122)) ([23af685](https://github.com/ruzickap/petr.ruzicka.dev/commit/23af685a4ab8845915744ec525a490a1e5543379))
+* remove --root-dir from lychee remote URL check ([#120](https://github.com/ruzickap/petr.ruzicka.dev/issues/120)) ([b8f441f](https://github.com/ruzickap/petr.ruzicka.dev/commit/b8f441f76a167d4122a484601cbe876d63575f64))
+* update GitHub Actions workflow to use GITHUB_ENV ([#113](https://github.com/ruzickap/petr.ruzicka.dev/issues/113)) ([a1cfb98](https://github.com/ruzickap/petr.ruzicka.dev/commit/a1cfb9858a6f35506ebabc36e0bcb5cd93d77ccb))
+* use glob patterns in gh-pages-build path filters ([#124](https://github.com/ruzickap/petr.ruzicka.dev/issues/124)) ([f84a8b5](https://github.com/ruzickap/petr.ruzicka.dev/commit/f84a8b5971e9d437d6a6b8c78f9d98740cc34b51))
+
 ## [1.1.0](https://github.com/ruzickap/petr.ruzicka.dev/compare/v1.0.0...v1.1.0) (2026-01-01)
 
 
