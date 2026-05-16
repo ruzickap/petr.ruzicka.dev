@@ -107,8 +107,7 @@ entirely through linting, link checking, and security scanning in CI.
 ## Security Scanning (CI)
 
 Checkov (skip `CKV_GHA_7`), DevSkim (ignore DS162092/DS137138;
-exclude `CHANGELOG.md`), KICS (fail on HIGH), Trivy (HIGH/CRITICAL
-only, ignore unfixed).
+exclude `CHANGELOG.md`), Trivy (HIGH/CRITICAL only, ignore unfixed).
 
 ## Version Control
 
