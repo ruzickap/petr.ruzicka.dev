@@ -1,11 +1,11 @@
 # Petr Ruzicka's Personal Website (petr.ruzicka.dev)
 
 This repository contains the source code for Petr Ruzicka's personal website
-(petr.ruzicka.dev), built with Hugo and the Aerial theme. The website
+(petr.ruzicka.dev), built with Hugo and the LucentLink-Hugo theme. The website
 showcases his work as a DevOps specialist and SysAdmin, as well as his
 photography.
 
-[![Build Status](https://github.com/ruzickap/petr.ruzicka.dev/workflows/hugo-build/badge.svg)](https://github.com/ruzickap/petr.ruzicka.dev)
+[![Build Status](https://github.com/ruzickap/petr.ruzicka.dev/actions/workflows/gh-pages-build.yml/badge.svg)](https://github.com/ruzickap/petr.ruzicka.dev/actions/workflows/gh-pages-build.yml)
 
 ## Live Site
 
@@ -35,7 +35,8 @@ Make sure you have Git installed on your system.
 
 ## Theme
 
-This site uses the [Aerial](https://github.com/cewood/aerial) theme for Hugo.
+This site uses the [LucentLink-Hugo](https://github.com/cx48/LucentLink-Hugo)
+theme for Hugo.
 
 ## Installing Hugo
 
@@ -59,8 +60,8 @@ Once you have cloned the repository and installed Hugo, you can run the site loc
   hugo server --buildDrafts
   ```
 
-- Generate new version (for deployment):
+- Build the site like CI does (output goes to `public/`):
 
   ```bash
-  hugo -d public
+  hugo build --minify --printPathWarnings --printI18nWarnings --panicOnWarning
   ```
