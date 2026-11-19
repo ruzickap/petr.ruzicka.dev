@@ -1,7 +1,7 @@
 ---
 title: "Petr Ruzicka"
 # Profile settings
-profileImage: https://0.gravatar.com/avatar/5484c0fd9f98e2ffd9212b158931bf4b?s=512
+profileImage: https://0.gravatar.com/avatar/5484c0fd9f98e2ffd9212b158931bf4b?s=360
 name: "Petr Ruzicka"
 description: "DevSecOps | SysAdmin | Photographer"
 socials:
